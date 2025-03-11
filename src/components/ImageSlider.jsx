@@ -13,7 +13,7 @@ const ImageSlider = ({ images, id, toggleLike , like }) => {
     );<svg
     onClick={(e) => {
       e.stopPropagation(); // Prevents triggering parent link
-      toggleLike(id); // Use id, NOT currentIndex
+      toggleLike(id);
     }}
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
