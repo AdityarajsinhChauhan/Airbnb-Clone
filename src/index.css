@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide scrollbar for Chrome, Safari, and Edge */
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  html {
+    scrollbar-width: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge */
+  body {
+    -ms-overflow-style: none;
+  }
+
+  .right-mask-gradient {
+    -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0));
+  }
+
+  .left-mask-gradient {
+    -webkit-mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 1) 80%, rgba(0, 0, 0, 0));
+  }
+
+  .both-mask-gradient {
+    -webkit-mask-image: linear-gradient(to right, 
+      rgba(0, 0, 0, 0) 0%, 
+      rgba(0, 0, 0, 1) 15%, 
+      rgba(0, 0, 0, 1) 85%, 
+      rgba(0, 0, 0, 0) 100%);
+    mask-image: linear-gradient(to right, 
+      rgba(0, 0, 0, 0) 0%, 
+      rgba(0, 0, 0, 1) 15%, 
+      rgba(0, 0, 0, 1) 85%, 
+      rgba(0, 0, 0, 0) 100%);
+  }
+
+
+
+
+  
