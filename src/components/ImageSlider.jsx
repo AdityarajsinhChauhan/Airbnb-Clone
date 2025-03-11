@@ -44,7 +44,7 @@ const ImageSlider = ({ images, id, toggleLike , like }) => {
       onClick={(e)=>{
         if(id !== 1){
           e.preventDefault();
-          alert("This item does not contain any further details")
+          alert("This item does not contain any further details Only firslt item under Cabin category have next page.")
         }
       }}
       target="_blank" rel="noopener noreferrer">
